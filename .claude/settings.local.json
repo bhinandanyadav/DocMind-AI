@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from app.services.web_scraper import fetch_url_content, save_web_content_as_document, validate_url; print\\('✅ web_scraper imports OK'\\)\")",
+      "Bash(python -c \"from app.schemas.document import WebDocumentUploadRequest; print\\('✅ schema import OK'\\)\")"
+    ]
+  }
+}

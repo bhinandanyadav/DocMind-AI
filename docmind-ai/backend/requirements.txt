@@ -1,0 +1,106 @@
+# ─────────────────────────────────────────────────────────────────
+# DocMind AI — Backend Dependencies
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# ── Web Framework ─────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+# starlette is managed by fastapi — do NOT pin separately
+
+# ── Data Validation ───────────────────────────────────────────────
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.2.0
+
+# ── Database ──────────────────────────────────────────────────────
+sqlalchemy==2.0.35
+alembic==1.13.3
+psycopg2-binary==2.9.9
+
+# ── Authentication ────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# ── HTTP Client ───────────────────────────────────────────────────
+httpx==0.27.2
+requests==2.32.3
+aiohttp==3.10.8
+
+# ── Environment ───────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── File Handling ─────────────────────────────────────────────────
+aiofiles==24.1.0
+python-slugify==8.0.4
+
+# ── PDF Processing ────────────────────────────────────────────────
+PyMuPDF==1.24.10
+
+# ── DOCX Processing ───────────────────────────────────────────────
+python-docx==1.1.2
+
+# ── OCR (Scanned PDFs) ────────────────────────────────────────────
+pytesseract==0.3.13
+Pillow==10.4.0
+
+# ── Text & Tokenization ───────────────────────────────────────────
+tiktoken==0.8.0
+nltk==3.9.1
+regex==2024.9.11
+
+# ── AI / LLM ──────────────────────────────────────────────────────
+openai==1.51.0
+groq==0.11.0
+
+# ── LangChain (RAG orchestration) ────────────────────────────────
+langchain==0.3.1
+langchain-core==0.3.6
+langchain-openai==0.2.1
+langchain-community==0.3.1
+langchain-text-splitters==0.3.0
+
+# ── Embeddings ────────────────────────────────────────────────────
+# sentence-transformers and torch are large (~2GB).
+sentence-transformers==3.1.1
+# torch is installed as a sentence-transformers dependency.
+numpy==1.26.4
+
+# ── Web Scraping ──────────────────────────────────────────────────
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Vector Database ───────────────────────────────────────────────
+qdrant-client==1.11.3
+
+# ── Async & Background Tasks ─────────────────────────────────────
+anyio==4.6.0
+celery==5.4.0
+redis==5.1.1
+
+# ── Caching ───────────────────────────────────────────────────────
+cachetools==5.5.0
+
+# ── Logging ───────────────────────────────────────────────────────
+loguru==0.7.2
+
+# ── Date & Time ───────────────────────────────────────────────────
+python-dateutil==2.9.0
+
+# ── Utilities ─────────────────────────────────────────────────────
+orjson==3.10.7
+# tenacity is managed by langchain — do NOT pin separately
+tqdm==4.66.5
+
+# ── Testing ───────────────────────────────────────────────────────
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-cov==5.0.0
+faker==30.3.0
+
+# ── Model Training & Notebooks (Optional) ─────────────────────────
+datasets>=3.0.0
+accelerate>=1.0.0
+matplotlib>=3.8.0

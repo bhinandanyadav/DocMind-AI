@@ -1,0 +1,72 @@
+[
+  {
+    "id": "eval-001",
+    "question": "What is the main topic of the document?",
+    "expected_keywords": ["main topic", "overview", "summary"],
+    "source_chunks": 3,
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval-002",
+    "question": "What methodology was used in the research?",
+    "expected_keywords": ["methodology", "method", "approach", "technique"],
+    "source_chunks": 5,
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval-003",
+    "question": "What are the key findings or results?",
+    "expected_keywords": ["results", "findings", "conclusion", "outcome"],
+    "source_chunks": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval-004",
+    "question": "What are the limitations of this study?",
+    "expected_keywords": ["limitations", "constraints", "restrictions", "drawbacks"],
+    "source_chunks": 3,
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval-005",
+    "question": "What future research directions are suggested?",
+    "expected_keywords": ["future", "research", "directions", "next steps"],
+    "source_chunks": 3,
+    "difficulty": "hard"
+  },
+  {
+    "id": "eval-006",
+    "question": "Who are the authors of this paper?",
+    "expected_keywords": ["author", "researcher", "written by"],
+    "source_chunks": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": "eval-007",
+    "question": "What dataset was used for the experiments?",
+    "expected_keywords": ["dataset", "data", "corpus", "collection"],
+    "source_chunks": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval-008",
+    "question": "What metrics were used to evaluate performance?",
+    "expected_keywords": ["metric", "accuracy", "precision", "recall", "F1"],
+    "source_chunks": 4,
+    "difficulty": "medium"
+  },
+  {
+    "id": "eval-009",
+    "question": "Explain the model architecture described in the paper.",
+    "expected_keywords": ["architecture", "model", "layers", "network", "structure"],
+    "source_chunks": 6,
+    "difficulty": "hard"
+  },
+  {
+    "id": "eval-010",
+    "question": "What comparisons were made with existing approaches?",
+    "expected_keywords": ["comparison", "baseline", "existing", "state-of-the-art"],
+    "source_chunks": 5,
+    "difficulty": "hard"
+  }
+]
